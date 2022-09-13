@@ -1,0 +1,24 @@
+/* cascading stylesheets */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.catInfo {
+    display: inline-block;
+    background-color: slategray;
+    width: calc(50% - 40px);
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    vertical-align: top;
+}
+
+.catInfo > ul {
+    margin-left: 15px;
+}
+
+.catInfo > h2 {
+    margin-bottom: 15px;
+}
