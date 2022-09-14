@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+}
+
+#container {
+    background-color: slategray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.article {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+}

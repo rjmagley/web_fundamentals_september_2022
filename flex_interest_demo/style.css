@@ -1,0 +1,50 @@
+#top_navigation {
+    width: 100%;
+    background-color: slategrey;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#main_navigation {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#selected_boards {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#selected_hashtags {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+.top_button {
+    background-color: lightsalmon;
+}
+
+.board_button {
+    background-color: lightpink;
+}
+
+.hashtag_button {
+    background-color: thistle;
+}
