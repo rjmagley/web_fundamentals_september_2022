@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: darksalmon;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.relative {
+    position: relative;
+    background-color: darkseagreen;
+    top: 50px;
+    left: 50px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: darkorange;
+}
+
+.fixed {
+    position: fixed;
+    background-color: purple;
+    bottom: 0px;
+}
+
+.sticky {
+    position: sticky;
+    background-color: pink;
+    top: 0px;
+}
