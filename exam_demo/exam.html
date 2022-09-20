@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1>Keyboard Central</h1>
+        <div>
+            <button onclick="newPostAlert()">New Post</button>
+            <button id="subscribe-button" onclick="removeSubscribe(this)">Subscribe</button>
+            <button>Log Out</button>
+        </div>
+    </div>
+    <div id="site-content">
+        <div id="main-content">
+            <div id="keyboard-of-the-week">
+                <img src="./images/keyboard1.jpeg" alt="keyboard of the week">
+                <div>
+                    <h2>Keyboard of the Week</h2>
+                    <p>Text about keyboards Text about keyboards Text about keyboards Text about keyboards Text about
+                        keyboards Text about keyboards Text about keyboards</p>
+                    <a href="">Discuss this on the forums</a>
+                </div>
+            </div>
+            <div id="articles">
+                <h2>Latest Articles</h2>
+                <ul>
+                    <li>article title</li>
+                    <li>other article title</li>
+                    <li>yet another article title</li>
+                    <li>art. title</li>
+                </ul>
+            </div>
+        </div>
+        <h2>Other Keyboards</h2>
+        <div id="keyboard-gallery">
+            <div class="keyboard-div">
+                <img src="./images/keyboard2.jpg">
+                <div class="keyboard-info">
+                    <div class="keyboard-title">
+                        <h3>New keyboard</h3>
+                        <p>from username</p>
+                    </div>
+                    <div class="keyboard-likes">
+                        <a href="">Gallery link</a>
+                        <img src="./images/heart-icon.svg" onclick="likeKeyboard(1);">
+                        <p id="keyboard-likes-1">32</p>
+                    </div>
+                </div>
+            </div>
+            <div class="keyboard-div">
+                <img src="./images/keyboard3.jpg">
+                <div class="keyboard-info">
+                    <div class="keyboard-title">
+                        <h3>Another keyboard</h3>
+                        <p>from someone else</p>
+                    </div>
+                    <div class="keyboard-likes">
+                        <a href="">Gallery link</a>
+                        <img src="./images/heart-icon.svg" onclick="likeKeyboard(2);">
+                        <p id="keyboard-likes-2">52</p>
+                    </div>
+                </div>
+            </div>
+            <div class="keyboard-div">
+                <img src="./images/keyboard4.jpg">
+                <div class="keyboard-info">
+                    <div class="keyboard-title">
+                        <h3>Third keyboard</h3>
+                        <p>from username</p>
+                    </div>
+                    <div class="keyboard-likes">
+                        <a href="">Gallery link</a>
+                        <img src="./images/heart-icon.svg" onclick="likeKeyboard(3);">
+                        <p id="keyboard-likes-3">17</p>
+                    </div>
+                </div>
+            </div>
+            <div class="keyboard-div">
+                <img src="./images/keyboard5.jpg">
+                <div class="keyboard-info">
+                    <div class="keyboard-title">
+                        <h3>Short word long title wow</h3>
+                        <p>from coolguy</p>
+                    </div>
+                    <div class="keyboard-likes">
+                        <a href="">Gallery link</a>
+                        <img src="./images/heart-icon.svg" onclick="likeKeyboard(4);">
+                        <p id="keyboard-likes-4">165</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="exam.js"></script>
+</body>
+
+</html>

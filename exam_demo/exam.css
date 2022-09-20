@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#header > h1 {
+    color: mediumaquamarine;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#subscribe-button {
+    background-color: yellow;
+}
+
+#site-content {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    background-color: mediumaquamarine;
+    padding-top: 10px;
+}
+
+#main-content {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px;
+}
+
+#keyboard-of-the-week {
+    width: 70%;
+}
+
+#keyboard-of-the-week > img {
+    width: calc(60% - 20px);
+    margin-right: 20px;
+}
+
+#keyboard-of-the-week > div {
+    display: inline-block;
+    width: 39%;
+    vertical-align: top;
+}
+
+li {
+    list-style-type: circle;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#keyboard-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.keyboard-div {
+    background-color: white;
+    border: 2px solid black;
+    width: 48%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.keyboard-div > img {
+    width: 55%;
+    display: inline-block;
+}
+
+.keyboard-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.keyboard-likes {
+    margin-bottom: 10px;
+}
+
+.keyboard-likes > img {
+    width: 25px;
+    display: inline-block;
+}
+
+.keyboard-likes > p {
+    display: inline-block;
+}
