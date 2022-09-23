@@ -1,0 +1,19 @@
+APIs and AJAX
+
+API
+
+Application Programming Interface
+
+API (1) - technical documentation for a language, module, library, etc.
+API (2) - shared interface for common computing tasks
+
+and finally
+
+API (3) - online server that returns specific data based on requests
+
+API key - private key used for authentication for an API
+    to prevent overuse/abuse
+
+AJAX
+
+Asynchronus JavaScript and XML
